@@ -1,0 +1,322 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica';
+}
+
+header{
+    background-color:#F1F3FF;
+    padding-top: 24px;
+}
+
+nav{
+    height: 36px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1360px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 32px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+nav ul li a:hover {
+    color: rgb(133, 157, 244);
+}
+
+nav ul li:nth-child(5) a {
+    color: white;
+    background-color: #5CB85F;
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+.hero {
+    padding-left: 136px;
+    padding-top: 97px;
+    display: flex;
+    margin-top: 36px;
+    max-width: 1360px;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+.hero .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero .text h1{
+    font-size: 36px;
+    margin: 0;
+    margin-top: -50px;
+    line-height: 150%;
+}
+
+.hero .text p {
+    font-weight: 300;
+    width: 468px;
+    line-height: 20px;
+}
+
+.hero .text button{
+    width: 140px;
+    height: 36px;
+    color: white;
+    background-color: #5CB85F;
+    border-radius: 2px;
+    border: 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.services {
+    width: 1027px;
+    max-width: 1360p;
+    margin: auto;
+    display: flex;
+    margin-top: 104px;
+}
+
+.services .services-hero {
+    margin-right: 100px;
+}
+
+.services .services-text {
+    margin-top: 10px;
+}
+
+.services .services-text h1 {
+    line-height: 36px;
+}
+
+.services .services-text p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.services .services-text div {
+    display: flex;
+    margin-top: 16px;
+    align-items: center;
+}
+
+.services .services-text p {
+    margin: 0;
+}
+
+.services .services-text img {
+    margin-right: 16px;
+}
+
+
+.why-us {
+    max-width: 1360px;
+    margin-left: 136px;
+    margin: auto;
+    margin-top: 110px;
+}
+
+.why-us p{
+    font-weight: 300;
+}
+
+.why-us h1{
+    font-size: 24px;
+}
+
+.why-us .wrapper-card{
+    display: flex;
+    margin-top: 40px;
+}
+
+.why-us .wrapper-card .card{
+    padding: 24px;
+    border: 1px solid #D0D0D0;
+    border-radius: 8px;
+    margin-right: 32px;
+    width: 268px;
+}
+
+.why-us .wrapper-card .card h1{
+    margin: 0;
+    margin-top: 16px;
+    font-size: 16px;
+}
+
+.why-us .wrapper-card .card p{
+    line-height: 20px;
+}
+
+/* END SECTION SHY US */
+
+/* START SECTION TESTI */
+
+.testimoni {
+    margin: auto;
+    margin-top: 100px;
+    max-width: 1460px;
+    overflow: hidden;
+}
+
+.testimoni > h1, .testimoni > p{
+    text-align: center;
+}
+
+.testimoni > p{
+    font-weight: 300;
+}
+
+.testimoni .wrapper-slide {
+    display: flex;
+    margin-top: 40px;
+    width: fit-content;
+    margin-left: -300px;
+}
+
+.testimoni .wrapper-slide .slide {
+    width: 618px;
+    border-radius: 8px;
+    background-color: #F1F3FF;
+    padding: 68px 32px 68px 46px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    margin-right: 32px;
+}
+
+.testimoni .wrapper-slide .slide .img-slide {
+    margin-right: 40px;
+}
+
+.testimoni .wrapper-slide .slide .text-slide p{
+    margin: 8px 0;
+    font-weight: 300;
+    line-height: 20px;
+    width: 95%;
+}
+
+.testimoni .wrapper-slide .slide .text-slide .text-name p {
+    font-weight: 400;
+}
+
+.testimoni .wrap-arrow{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.testimoni .wrap-arrow div{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.testimoni .wrap-arrow div:first-child{
+    border: 1px solid #C4C4C4;
+    margin-right: 37.5px;
+}
+
+.testimoni .wrap-arrow div:last-child{
+    background-color: #5CB85F;
+}
+
+.testimoni .wrap-arrow div img {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+/* START SECTION SEWA MOBIL*/
+
+.sewa-mobil {
+    margin-top: 64px;
+}
+
+.banner-sewa{
+    background-color: #0D28A6;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+    margin: 20px 0;
+    padding: 30px 120px;
+    max-width: 925px;
+    margin: auto;
+
+}
+
+.banner-isi> h1{
+    font-size: 36px;
+}
+
+.banner-isi> p{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 0 250px;
+}
+
+.button-sewa {
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    background-color: #5CB85F;
+    margin-top: 30px;
+}
+/*END OF SEWA MOBIL*/
+
+/* START SECTION FAQ*/
+
+
+/* .services .services-hero{
+    margin-right: 100px;
+}
+
+.services .services-text{
+    margin-top: 10px;
+}
+
+.services .services-hero h1{
+    line-height: 36px;
+}
+
+.services .services-text p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.services .services-text div{
+    display: flex;
+    align-items: center;
+}
+.services .services-text img{
+    margin-right: 16px;
+    height: 24px;
+} */
